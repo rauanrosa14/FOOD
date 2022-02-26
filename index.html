@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+     <!--FONT AWESOME-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css" integrity="sha512-6/gTF62BJ06BajySRzTm7i8N2ZZ6StspU9uVWDdoBiuuNu5rs1a8VwiJ7skCz2BcvhpipLKfFerXkuzs+npeKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/solid.min.js" integrity="sha512-wabaor0DW08KSK5TQlRIyYOpDrAfJxl5J0FRzH0dNNhGJbeUpHaNj7up3Kr2Bwz/abLvVcJvDrJL+RLFcyGIkg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+     <script src="js/menu.js"></script>
+     <script src="js/gallery.js"></script>
+     <link rel="icon" href="images/g-1.jpg">
+     <title>Food</title>
+</head>
+<body>
+    <header>
+        <div>
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Food</h3>
+        </div>
+        <nav class="menu-desktop">
+            <ul class="list-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plate">Speciality</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+        <span onclick="menu()" class="menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+    </header>
+    <div class="menu-mobile-list">
+        <h3><a href="#home">Home</a></h3>
+        <h3><a href="#plate">Speciality</a></h3>
+        <h3><a href="#popular">Popular</a></h3>
+        <h3><a href="#gallery">Gallery</a></h3>
+        <h3><a href="#review">Review</a></h3>
+        <h3><a href="#order">Order</a></h3>
+    </div>
+    <section id="home" class="home">
+        <div class="logo-msg">
+            <h1>Food Made With Love</h1>
+            <h3>Melhor do que um quadro exposto em um museu
+                e a comida servida em um restaurante,
+                é a arte que acompanha os dois.</h3>
+            <button class="btn btn-order">Order Now</button>
+        </div>
+        <div class="logo-img">
+            <img src="images/home-img.png">    
+        </div>
+    </section>
+    <section id="plate" class="plate">
+        <h1 class="title-section">Our <span> Special</span> Dishes</h1>
+        <div class="dishes">
+            <div class="dish">
+                <img src="images/s-1.png">
+                <h2>Tasty Burger</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat efficitur, consequat eros condimentum, suscipit metus. Morbi eu elementum arcu, tristique vulputate risus.</p>
+                <img class="img-hover" src="images/s-img-1.jpg">
+            </div>
+            <div class="dish">
+                <img src="images/s-2.png">
+                <h2>Tasty Pizza</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat efficitur, consequat eros condimentum, suscipit metus. Morbi eu elementum arcu, tristique vulputate risus.</p>
+                <img class="img-hover" src="images/s-img-2.jpg">
+            </div>
+            <div class="dish">
+                <img src="images/s-3.png">
+                <h2>Cold Ice-Cream</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat efficitur, consequat eros condimentum, suscipit metus. Morbi eu elementum arcu, tristique vulputate risus.</p>
+                <img class="img-hover" src="images/s-img-3.jpg">
+            </div>
+            <div class="dish">
+                <img src="images/s-4.png">
+                <h2>Cold Drinks</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat efficitur, consequat eros condimentum, suscipit metus. Morbi eu elementum arcu, tristique vulputate risus.</p>
+                <img class="img-hover" src="images/s-img-4.jpg">
+            </div>
+            <div class="dish">
+                <img src="images/s-5.png">
+                <h2>Tasty Sweets</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat efficitur, consequat eros condimentum, suscipit metus. Morbi eu elementum arcu, tristique vulputate risus.</p>
+                <img class="img-hover" src="images/s-img-5.jpg">
+            </div>
+            <div class="dish">
+                <img src="images/s-6.png">
+                <h2>Healtly Breakfast</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et erat efficitur, consequat eros condimentum, suscipit metus. Morbi eu elementum arcu, tristique vulputate risus.</p>
+                <img class="img-hover" src="images/s-img-6.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="popular">
+        <h1 class="title-section"> Most<span> Popular</span> Foods</h1>
+        <div class="popular-foods">
+            <div class="food">
+                <img src="images/p-1.jpg">
+                <h2>Tast Burger</h2>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <button class="btn btn-order">ORDER NOW</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/p-2.jpg">
+                <h2>Tast Cakes</h2>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <button class="btn btn-order">ORDER NOW</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/p-3.jpg">
+                <h2>Tast Fries</h2>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <button class="btn btn-order">ORDER NOW</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/p-4.jpg">
+                <h2>Tast Cupcake</h2>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <button class="btn btn-order">ORDER NOW</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/p-5.jpg">
+                <h2>Tast Juice</h2>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <button class="btn btn-order">ORDER NOW</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+            <div class="food">
+                <img src="images/p-6.jpg">
+                <h2>Tast Pospile</h2>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <button class="btn btn-order">ORDER NOW</button>
+                <h3 class="price">$5,99</h3>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <h2 class="title-section">How It <span>Works</span></h2>
+        <div class="content">
+            <span>
+                <img src="images/step-1.jpg">
+                <h3>Choose your favorite food</h3>
+            </span>
+            <span>
+                <img src="images/step-2.jpg">
+                <h3> Free Delivery</h3>
+            </span>
+            <span>
+                <img src="images/step-3.jpg">
+                <h3> Easy payment</h3>
+            </span>
+            <span>
+                <img src="images/step-4.jpg">
+                <h3>Finally , Enjoy your food</h3>
+            </span>
+        </div>    
+    </section>
+    <section id="gallery" class="gallery-all">
+        <h2 class="title-section">Our <span>Food</span> Gallery</h2>
+        <div class="gallery">
+            <div class="photo">
+                <img  id="img-gallery" src="images/g-1.jpg">
+            </div>
+            <div class="options">
+                <div onclick="option(0)">
+                    <img value="images/g-1.jpg" class="option" src="images/g-1.jpg">
+                </div>
+                <div onclick="option(1)">
+                    <img value="images/g-2.jpg" class="option" src="images/g-2.jpg">
+                </div>
+                <div onclick="option(2)">
+                    <img value="images/g-3.jpg" class="option" src="images/g-3.jpg">
+                </div>
+                <div onclick="option(3)">
+                    <img value="images/g-4.jpg" class="option" src="images/g-4.jpg">
+                </div>
+                <div onclick="option(4)">
+                    <img value="images/g-5.jpg" class="option" src="images/g-5.jpg">
+                </div>
+                <div onclick="option(5)">
+                    <img value="images/g-6.jpg" class="option" src="images/g-6.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="review">
+        <h2 class="title-section">OUR <span>REVIEWS</span></h2>
+        <div class="customer">
+            <div class="custome">
+                <img src="images/pic1.png">
+                <div>
+                    <h2>Karen</h2>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut leo interdum, imperdiet turpis non, dignissim tortor. Nulla eget risus non nisl pretium consectetur ullamcorper malesuada ante.</p>
+                </div>
+            </div>
+            <div class="custome">
+                <img src="images/pic2.png">
+                <div>
+                    <h2>Jonh</h2>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut leo interdum, imperdiet turpis non, dignissim tortor. Nulla eget risus non nisl pretium consectetur ullamcorper malesuada ante.</p>
+                </div>
+            </div>
+            <div class="custome">
+                <img src="images/pic3.png">
+                <div>
+                    <h2>Anne</h2>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut leo interdum, imperdiet turpis non, dignissim tortor. Nulla eget risus non nisl pretium consectetur ullamcorper malesuada ante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="order">
+        <h2 class="title-section">ORDER <span>NOW</span></h2>
+        <div class="form">
+            <img src="images/order-img.jpg">
+            <form>
+                <input class="input" placeholder="  NAME">
+                <input class="input" placeholder="  EMAIL">
+                <input class="input" placeholder="  NUMBER">
+                <input class="input" placeholder="  FOOD NAME">
+                <textarea></textarea>
+                <button class="btn btn-order">ORDER NOW</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <span>
+            <button class="btn btn-order">INSTAGRAM</button>
+            <button class="btn btn-order">FACEBOOK</button>
+            <button class="btn btn-order"><a style="color:white;" href="https://github.com/rauanrosa14">GITHUB</a></button>
+            <button class="btn btn-order">LINKEDIN</button>
+        </span>
+        <h1 class="title-section">Created By <em>Rauan</em> / <em>All Right Reserved!</em></h1>
+    </footer>
+</body>
+</html>
